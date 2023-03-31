@@ -14,6 +14,10 @@ class App:
         self.button = tk.Button(master, text="Eliminar", command=self.cleanup)
         self.button.pack(pady=5)
 
+        #Footer
+        self.footer = tk.Label(master, text="© 2023, Todos los derechos reservados Javier Prieto [TatoCoffeeCoDeX]")
+        self.footer.pack(side=tk.BOTTOM, padx=10, pady=10)
+        
     def cleanup(self):
         # Elimina la carpeta Temp y su contenido
         temp_folder = os.environ['TEMP']
