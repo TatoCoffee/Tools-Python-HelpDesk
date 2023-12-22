@@ -33,7 +33,7 @@ btn_equilibrado = tk.Button(app, text="Equilibrado", command=equilibrado)
 btn_equilibrado.pack(pady=10)
 
 # Crear footer
-footer = tk.Frame(app, height=30)
+footer = tk.Frame(app, height=31)
 footer.pack(side=tk.BOTTOM, fill=tk.X)
 
 # Crear etiqueta en el footer
